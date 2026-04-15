@@ -4,7 +4,7 @@ function App() {
   const [mensaje, setMensaje] = useState("Cargando...");
 
   useEffect(() => {
-    fetch("https://3hk7quyw97.execute-api.us-east-1.amazonaws.com/dev")
+    fetch("https://2h3rwr6y8f.execute-api.us-east-1.amazonaws.com/dev")
       .then(res => res.json())
       .then(data => {
         console.log(data);
